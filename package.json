@@ -1,0 +1,12 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "main": "Server.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "keywords": [],
+  "author": "mohamad mewan",
+  "license": "ISC",
+  "description": ""
+}
