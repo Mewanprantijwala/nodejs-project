@@ -1,47 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaming Contact | My Website</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #f8f9fa;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    .navbar {
+      background-color: #1a1a1a;
+    }
+
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1593642632823-8f785ba67e45?crop=entropy&cs=tinysrgb&fit=crop&h=600&w=1400');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      color: #00ffcc;
+      text-shadow: 2px 2px 8px #000;
+    }
+
+    .info-card {
+      background-color: #1f1f1f;
+      padding: 2rem;
+      border-radius: 10px;
+      margin-top: -50px;
+      box-shadow: 0 0 15px #00ffcc;
+    }
+
+    footer {
+      background-color: #1a1a1a;
+      padding: 1rem;
+      text-align: center;
+      color: #777;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+    }
+  </style>
+
+  <!-- Google Fonts for Gaming Style -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <div class="bg-secondary col-lg p-3">
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="/">My Website</a>
-                    <div class="p-2" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/about">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/contact">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">Gaming World</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
-     
-    <div class="container mt-5">
-        <h1>Contact Us</h1>
-        <p>This is the contact page of our website.</p>
-        <p>We are dedicated to providing the best service possible.</p>
-        <p>Contact us for more information.</p> 
-        <p>We are located at 123 Main St, Anytown, USA.</p>
-        <p>Our phone number is (123) 456-7890.</p>
-        <p>Our email address is</p>
-        
+  </nav>
 
-        </div>
+  <!-- Hero Image Section -->
+  <div class="hero">
+    Contact Us
+  </div>
 
+  <!-- Contact Info Section -->
+  <div class="container">
+    <div class="info-card mt-5">
+      <h2 class="mb-4 text-center" style="color: #00ffcc;">Get In Touch</h2>
+      <p class="text-center">We are dedicated to providing the best gaming services possible. Reach out to us anytime!</p>
+      <ul class="list-unstyled text-center mt-4">
+        <li><strong>Location:</strong> 123 Main St, Anytown, USA</li>
+        <li><strong>Phone:</strong> (123) 456-7890</li>
+        <li><strong>Email:</strong> contact@gamingwebsite.com</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Follow us on</p>
+    <a href="#">Facebook</a> |
+    <a href="#">Twitter</a> |
+    <a href="#">Instagram</a>
+    <p class="mt-2">&copy; 2025 Gaming World. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
